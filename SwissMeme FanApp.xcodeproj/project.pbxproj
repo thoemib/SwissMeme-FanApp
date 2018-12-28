@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E92CDA2121D65F7000896EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDA2021D65F7000896EFF /* AppDelegate.swift */; };
+		E92CDA2321D65F7000896EFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDA2221D65F7000896EFF /* ViewController.swift */; };
+		E92CDA2621D65F7000896EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92CDA2421D65F7000896EFF /* Main.storyboard */; };
+		E92CDA2821D65F7200896EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92CDA2721D65F7200896EFF /* Assets.xcassets */; };
+		E92CDA2B21D65F7200896EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92CDA2921D65F7200896EFF /* LaunchScreen.storyboard */; };
+		E92CDA3621D65F7200896EFF /* SwissMeme_FanAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDA3521D65F7200896EFF /* SwissMeme_FanAppTests.swift */; };
+		E92CDA4121D65F7200896EFF /* SwissMeme_FanAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDA4021D65F7200896EFF /* SwissMeme_FanAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E92CDA3221D65F7200896EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E92CDA1521D65F7000896EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E92CDA1C21D65F7000896EFF;
+			remoteInfo = "SwissMeme FanApp";
+		};
+		E92CDA3D21D65F7200896EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E92CDA1521D65F7000896EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E92CDA1C21D65F7000896EFF;
+			remoteInfo = "SwissMeme FanApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E92CDA1D21D65F7000896EFF /* SwissMeme FanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwissMeme FanApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92CDA2021D65F7000896EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E92CDA2221D65F7000896EFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E92CDA2521D65F7000896EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E92CDA2721D65F7200896EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E92CDA2A21D65F7200896EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E92CDA2C21D65F7200896EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92CDA3121D65F7200896EFF /* SwissMeme FanAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwissMeme FanAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92CDA3521D65F7200896EFF /* SwissMeme_FanAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissMeme_FanAppTests.swift; sourceTree = "<group>"; };
+		E92CDA3721D65F7200896EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92CDA3C21D65F7200896EFF /* SwissMeme FanAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwissMeme FanAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92CDA4021D65F7200896EFF /* SwissMeme_FanAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissMeme_FanAppUITests.swift; sourceTree = "<group>"; };
+		E92CDA4221D65F7200896EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E92CDA1A21D65F7000896EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92CDA2E21D65F7200896EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92CDA3921D65F7200896EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E92CDA1421D65F7000896EFF = {
+			isa = PBXGroup;
+			children = (
+				E92CDA1F21D65F7000896EFF /* SwissMeme FanApp */,
+				E92CDA3421D65F7200896EFF /* SwissMeme FanAppTests */,
+				E92CDA3F21D65F7200896EFF /* SwissMeme FanAppUITests */,
+				E92CDA1E21D65F7000896EFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E92CDA1E21D65F7000896EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E92CDA1D21D65F7000896EFF /* SwissMeme FanApp.app */,
+				E92CDA3121D65F7200896EFF /* SwissMeme FanAppTests.xctest */,
+				E92CDA3C21D65F7200896EFF /* SwissMeme FanAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E92CDA1F21D65F7000896EFF /* SwissMeme FanApp */ = {
+			isa = PBXGroup;
+			children = (
+				E92CDA2021D65F7000896EFF /* AppDelegate.swift */,
+				E92CDA2221D65F7000896EFF /* ViewController.swift */,
+				E92CDA2421D65F7000896EFF /* Main.storyboard */,
+				E92CDA2721D65F7200896EFF /* Assets.xcassets */,
+				E92CDA2921D65F7200896EFF /* LaunchScreen.storyboard */,
+				E92CDA2C21D65F7200896EFF /* Info.plist */,
+			);
+			path = "SwissMeme FanApp";
+			sourceTree = "<group>";
+		};
+		E92CDA3421D65F7200896EFF /* SwissMeme FanAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E92CDA3521D65F7200896EFF /* SwissMeme_FanAppTests.swift */,
+				E92CDA3721D65F7200896EFF /* Info.plist */,
+			);
+			path = "SwissMeme FanAppTests";
+			sourceTree = "<group>";
+		};
+		E92CDA3F21D65F7200896EFF /* SwissMeme FanAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E92CDA4021D65F7200896EFF /* SwissMeme_FanAppUITests.swift */,
+				E92CDA4221D65F7200896EFF /* Info.plist */,
+			);
+			path = "SwissMeme FanAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E92CDA1C21D65F7000896EFF /* SwissMeme FanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92CDA4521D65F7200896EFF /* Build configuration list for PBXNativeTarget "SwissMeme FanApp" */;
+			buildPhases = (
+				E92CDA1921D65F7000896EFF /* Sources */,
+				E92CDA1A21D65F7000896EFF /* Frameworks */,
+				E92CDA1B21D65F7000896EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwissMeme FanApp";
+			productName = "SwissMeme FanApp";
+			productReference = E92CDA1D21D65F7000896EFF /* SwissMeme FanApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E92CDA3021D65F7200896EFF /* SwissMeme FanAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92CDA4821D65F7200896EFF /* Build configuration list for PBXNativeTarget "SwissMeme FanAppTests" */;
+			buildPhases = (
+				E92CDA2D21D65F7200896EFF /* Sources */,
+				E92CDA2E21D65F7200896EFF /* Frameworks */,
+				E92CDA2F21D65F7200896EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E92CDA3321D65F7200896EFF /* PBXTargetDependency */,
+			);
+			name = "SwissMeme FanAppTests";
+			productName = "SwissMeme FanAppTests";
+			productReference = E92CDA3121D65F7200896EFF /* SwissMeme FanAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E92CDA3B21D65F7200896EFF /* SwissMeme FanAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92CDA4B21D65F7200896EFF /* Build configuration list for PBXNativeTarget "SwissMeme FanAppUITests" */;
+			buildPhases = (
+				E92CDA3821D65F7200896EFF /* Sources */,
+				E92CDA3921D65F7200896EFF /* Frameworks */,
+				E92CDA3A21D65F7200896EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E92CDA3E21D65F7200896EFF /* PBXTargetDependency */,
+			);
+			name = "SwissMeme FanAppUITests";
+			productName = "SwissMeme FanAppUITests";
+			productReference = E92CDA3C21D65F7200896EFF /* SwissMeme FanAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E92CDA1521D65F7000896EFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Thomas Brun";
+				TargetAttributes = {
+					E92CDA1C21D65F7000896EFF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E92CDA3021D65F7200896EFF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E92CDA1C21D65F7000896EFF;
+					};
+					E92CDA3B21D65F7200896EFF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E92CDA1C21D65F7000896EFF;
+					};
+				};
+			};
+			buildConfigurationList = E92CDA1821D65F7000896EFF /* Build configuration list for PBXProject "SwissMeme FanApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E92CDA1421D65F7000896EFF;
+			productRefGroup = E92CDA1E21D65F7000896EFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E92CDA1C21D65F7000896EFF /* SwissMeme FanApp */,
+				E92CDA3021D65F7200896EFF /* SwissMeme FanAppTests */,
+				E92CDA3B21D65F7200896EFF /* SwissMeme FanAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E92CDA1B21D65F7000896EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92CDA2B21D65F7200896EFF /* LaunchScreen.storyboard in Resources */,
+				E92CDA2821D65F7200896EFF /* Assets.xcassets in Resources */,
+				E92CDA2621D65F7000896EFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92CDA2F21D65F7200896EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92CDA3A21D65F7200896EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E92CDA1921D65F7000896EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92CDA2321D65F7000896EFF /* ViewController.swift in Sources */,
+				E92CDA2121D65F7000896EFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92CDA2D21D65F7200896EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92CDA3621D65F7200896EFF /* SwissMeme_FanAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92CDA3821D65F7200896EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92CDA4121D65F7200896EFF /* SwissMeme_FanAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E92CDA3321D65F7200896EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E92CDA1C21D65F7000896EFF /* SwissMeme FanApp */;
+			targetProxy = E92CDA3221D65F7200896EFF /* PBXContainerItemProxy */;
+		};
+		E92CDA3E21D65F7200896EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E92CDA1C21D65F7000896EFF /* SwissMeme FanApp */;
+			targetProxy = E92CDA3D21D65F7200896EFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E92CDA2421D65F7000896EFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E92CDA2521D65F7000896EFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E92CDA2921D65F7200896EFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E92CDA2A21D65F7200896EFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E92CDA4321D65F7200896EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E92CDA4421D65F7200896EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E92CDA4621D65F7200896EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2963L2G98;
+				INFOPLIST_FILE = "SwissMeme FanApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SwissMeme.SwissMeme-FanApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E92CDA4721D65F7200896EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2963L2G98;
+				INFOPLIST_FILE = "SwissMeme FanApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SwissMeme.SwissMeme-FanApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E92CDA4921D65F7200896EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2963L2G98;
+				INFOPLIST_FILE = "SwissMeme FanAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SwissMeme.SwissMeme-FanAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwissMeme FanApp.app/SwissMeme FanApp";
+			};
+			name = Debug;
+		};
+		E92CDA4A21D65F7200896EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2963L2G98;
+				INFOPLIST_FILE = "SwissMeme FanAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SwissMeme.SwissMeme-FanAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwissMeme FanApp.app/SwissMeme FanApp";
+			};
+			name = Release;
+		};
+		E92CDA4C21D65F7200896EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2963L2G98;
+				INFOPLIST_FILE = "SwissMeme FanAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SwissMeme.SwissMeme-FanAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwissMeme FanApp";
+			};
+			name = Debug;
+		};
+		E92CDA4D21D65F7200896EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P2963L2G98;
+				INFOPLIST_FILE = "SwissMeme FanAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SwissMeme.SwissMeme-FanAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwissMeme FanApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E92CDA1821D65F7000896EFF /* Build configuration list for PBXProject "SwissMeme FanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92CDA4321D65F7200896EFF /* Debug */,
+				E92CDA4421D65F7200896EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92CDA4521D65F7200896EFF /* Build configuration list for PBXNativeTarget "SwissMeme FanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92CDA4621D65F7200896EFF /* Debug */,
+				E92CDA4721D65F7200896EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92CDA4821D65F7200896EFF /* Build configuration list for PBXNativeTarget "SwissMeme FanAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92CDA4921D65F7200896EFF /* Debug */,
+				E92CDA4A21D65F7200896EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92CDA4B21D65F7200896EFF /* Build configuration list for PBXNativeTarget "SwissMeme FanAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92CDA4C21D65F7200896EFF /* Debug */,
+				E92CDA4D21D65F7200896EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E92CDA1521D65F7000896EFF /* Project object */;
+}
