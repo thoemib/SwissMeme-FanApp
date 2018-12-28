@@ -14,6 +14,9 @@
 		E92CDA2B21D65F7200896EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E92CDA2921D65F7200896EFF /* LaunchScreen.storyboard */; };
 		E92CDA3621D65F7200896EFF /* SwissMeme_FanAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDA3521D65F7200896EFF /* SwissMeme_FanAppTests.swift */; };
 		E92CDA4121D65F7200896EFF /* SwissMeme_FanAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDA4021D65F7200896EFF /* SwissMeme_FanAppUITests.swift */; };
+		E92CDA5321D673E300896EFF /* MaschineTraktorPanzer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E92CDA5021D673E200896EFF /* MaschineTraktorPanzer.mp3 */; };
+		E92CDA5421D673E300896EFF /* BrutalGetrainiert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E92CDA5121D673E300896EFF /* BrutalGetrainiert.mp3 */; };
+		E92CDA5521D673E300896EFF /* verreis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E92CDA5221D673E300896EFF /* verreis.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,10 @@
 		E92CDA3C21D65F7200896EFF /* SwissMeme FanAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwissMeme FanAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92CDA4021D65F7200896EFF /* SwissMeme_FanAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissMeme_FanAppUITests.swift; sourceTree = "<group>"; };
 		E92CDA4221D65F7200896EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92CDA4E21D65FE500896EFF /* SwissMeme FanApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwissMeme FanApp.entitlements"; sourceTree = "<group>"; };
+		E92CDA5021D673E200896EFF /* MaschineTraktorPanzer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MaschineTraktorPanzer.mp3; path = ../../../../../../Volumes/SwissMeme/MaschineTraktorPanzer.mp3; sourceTree = "<group>"; };
+		E92CDA5121D673E300896EFF /* BrutalGetrainiert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BrutalGetrainiert.mp3; path = ../../../../../../Volumes/SwissMeme/BrutalGetrainiert.mp3; sourceTree = "<group>"; };
+		E92CDA5221D673E300896EFF /* verreis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = verreis.mp3; path = ../../../../../../Volumes/SwissMeme/verreis.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +104,8 @@
 		E92CDA1F21D65F7000896EFF /* SwissMeme FanApp */ = {
 			isa = PBXGroup;
 			children = (
+				E92CDA4F21D673C600896EFF /* SoundFiles */,
+				E92CDA4E21D65FE500896EFF /* SwissMeme FanApp.entitlements */,
 				E92CDA2021D65F7000896EFF /* AppDelegate.swift */,
 				E92CDA2221D65F7000896EFF /* ViewController.swift */,
 				E92CDA2421D65F7000896EFF /* Main.storyboard */,
@@ -123,6 +132,16 @@
 				E92CDA4221D65F7200896EFF /* Info.plist */,
 			);
 			path = "SwissMeme FanAppUITests";
+			sourceTree = "<group>";
+		};
+		E92CDA4F21D673C600896EFF /* SoundFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E92CDA5121D673E300896EFF /* BrutalGetrainiert.mp3 */,
+				E92CDA5021D673E200896EFF /* MaschineTraktorPanzer.mp3 */,
+				E92CDA5221D673E300896EFF /* verreis.mp3 */,
+			);
+			path = SoundFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +212,11 @@
 				TargetAttributes = {
 					E92CDA1C21D65F7000896EFF = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					E92CDA3021D65F7200896EFF = {
 						CreatedOnToolsVersion = 10.1;
@@ -230,7 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E92CDA2B21D65F7200896EFF /* LaunchScreen.storyboard in Resources */,
+				E92CDA5421D673E300896EFF /* BrutalGetrainiert.mp3 in Resources */,
 				E92CDA2821D65F7200896EFF /* Assets.xcassets in Resources */,
+				E92CDA5521D673E300896EFF /* verreis.mp3 in Resources */,
+				E92CDA5321D673E300896EFF /* MaschineTraktorPanzer.mp3 in Resources */,
 				E92CDA2621D65F7000896EFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SwissMeme FanApp/SwissMeme FanApp.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P2963L2G98;
 				INFOPLIST_FILE = "SwissMeme FanApp/Info.plist";
@@ -450,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SwissMeme FanApp/SwissMeme FanApp.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P2963L2G98;
 				INFOPLIST_FILE = "SwissMeme FanApp/Info.plist";
